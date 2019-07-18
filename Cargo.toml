@@ -1,5 +1,5 @@
 [package]
-name = "timedump"
+name = "timedumper"
 version = "0.1.0"
 authors = ["Kloenk <kloenk@kloenk.de>"]
 edition = "2018"
@@ -7,3 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+clap = {version = "2.33.0", features = ["color"]}
+httpdate = "0.3.2"
+mosquitto-client = "0.1.5"
+serde_yaml = "0.8.9"
